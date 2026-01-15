@@ -1,6 +1,8 @@
 # nut-notify
 A simple notification service for NUT.
 
+<img width="3840" height="2160" alt="deleteme" src="https://github.com/user-attachments/assets/113f4651-1b13-48bd-b2c6-e80c87bad598" />
+
 # How to install
 Clone the repo, cd in, and run:
 ```sh
