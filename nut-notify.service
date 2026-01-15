@@ -1,13 +1,13 @@
 [Unit]
-Description=NUT Notification Monitor
+Description=nut-notify
 After=graphical-session.target
 
 [Service]
 Type=simple
-ExecStart=%h/.local/bin/nut-notify-monitor.sh
+ExecStart=%h/.local/bin/nut-notify.sh
 Restart=on-failure
 RestartSec=5
-SyslogIdentifier=UPS-monitor
+SyslogIdentifier=nut-notify
 
 [Install]
 WantedBy=default.target
