@@ -45,4 +45,4 @@ upscmd -u "$NUT_USER" -p "$NUT_PASSWORD" "${UPS_NAME}@localhost" test.battery.st
 echo "=== Test completed ==="
 ```
 
-You should see desktop notifications during the test.
+You should be able to see the desktop notifications appearing during the test.
