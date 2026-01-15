@@ -16,7 +16,7 @@ Then enable and start the service
 systemctl --user enable --now nut-notify.service
 ```
 
-# How de debug
+# How to debug
 `systemctl --user status nut-notify.service` or `nut-notify.sh` directly if you preffer.
 
 #  How to know it works
