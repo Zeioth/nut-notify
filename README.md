@@ -33,7 +33,6 @@ NUT_PASSWORD="<nut_password>"
 # 1. Start deep battery test (MAXIMUM 10 seconds)
 echo "=== Deep battery test (maximum 10s) ==="
 upscmd -u "$NUT_USER" -p "$NUT_PASSWORD" "${UPS_NAME}@localhost" test.battery.start.deep &
-TEST_PID=$!
 
 # 2. Monitor for 10 seconds
 for i in {1..10}; do
@@ -42,7 +41,6 @@ for i in {1..10}; do
 done
 
 # 3. Stop the test
-kill $TEST_PID 2>/dev/null
 upscmd -u "$NUT_USER" -p "$NUT_PASSWORD" "${UPS_NAME}@localhost" test.battery.stop 2>/dev/null
 echo "=== Test completed ==="
 ```
