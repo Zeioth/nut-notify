@@ -20,7 +20,7 @@ systemctl --user enable --now nut-notify.service
 `systemctl --user status nut-notify.service` or `nut-notify.sh` directly if you preffer.
 
 #  How to know it works
-If you want you can use nut to simulate UPS changing status like in this example.
+You can use nut to simulate UPS changing status like in this example.
 
 ```sh
 # YOUR NUT USER AND PASSWORD
