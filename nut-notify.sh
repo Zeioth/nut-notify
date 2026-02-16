@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script poll NUT to get your UPS status.
+# This script polls NUT to get your UPS status.
 # It sends desktop notifications on status change.
 
 PREV_STATUS=""
