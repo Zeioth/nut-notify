@@ -1,6 +1,6 @@
 #!/bin/bash
 # This script poll NUT to get your UPS status.
-# It send desktop notifications on status change.
+# It sends desktop notifications on status change.
 
 PREV_STATUS=""
 echo "Monitor started. Waiting for UPS status changes..."
